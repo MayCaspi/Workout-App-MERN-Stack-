@@ -1,0 +1,29 @@
+GET http://localhost:4000/api/workouts/
+
+####
+
+GET http://localhost:4000/api/workouts/657083ee4f6e5ad5be5360eb
+ 
+####
+
+POST http://localhost:4000/api/workouts/
+Content-Type:  application/json
+
+{
+    "title": "Situps",
+    "load": 0,
+    "reps": 50
+}
+
+####
+
+DELETE http://localhost:4000/api/workouts/65705712dd7e88f3eca9aba3
+
+####
+
+PATCH  http://localhost:4000/api/workouts/65705712dd7e88f3eca9aba3
+Content-Type:  application/json
+
+{
+    "title": "Bench"
+}
